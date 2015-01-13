@@ -1,0 +1,118 @@
+html,body
+{
+    height:100%;
+    width: 100%;
+    color: red;
+}
+
+#home
+{
+    background: url(../../1.jpg) no-repeat fixed;  
+    width: 100%;
+    height:100%;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    position: relative;
+   
+padding-right: 15px;
+padding-left: 15px;
+/*    top:100px;*/
+}
+#home h1
+{
+    
+bottom:400px;
+    
+
+
+}
+.text-center
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.ssc
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+.head1
+{
+    font-size: 32px;
+    font-family: cursive;
+    text-decoration: underline;
+/*    text-decoration-color: blue;*/
+}
+.ssc1
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    text-decoration: underline;
+    text-decoration-color: currentColor;   
+}
+.contact
+{
+    text-align: left;
+    font-family: serif;
+}
+.contacthead
+{
+    text-align: left;
+    font-family: cursive;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.abc
+{
+    text-align: center;
+    font-family: monospace;
+    font-size: 64px;
+    color: black;
+}
+.about
+{
+    width: 360px;
+    height: 360px;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
